@@ -1,6 +1,16 @@
 """Solution to an exercise in Think Python.
 
-Author:
+Author:Emily Guthrie
 """
 
-print '+ - - - -'
+
+def print_Grid(row,col):
+    top='+ - - - - '
+    mid='|         '
+    for x in range (0,row):
+        print top*col,'+'
+        print mid*col,'|'
+        print mid*col,'|'
+        print mid*col,'|'
+        print mid*col,'|'
+    print top*col,'+'
