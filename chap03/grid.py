@@ -14,3 +14,5 @@ def print_Grid(row,col):
         print mid*col,'|'
         print mid*col,'|'
     print top*col,'+'
+print_Grid(2,2)
+print_Grid(4,4)
