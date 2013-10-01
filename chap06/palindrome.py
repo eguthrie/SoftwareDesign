@@ -34,7 +34,21 @@ def middle(word):
 
 
 def is_palindrome(word):
-    """Write a good Docstring here."""
+    """Returnes if word is a palindrome
+    word: string
+    returns: Boolean"""
+   
+    if first(word)==last(word):
+        if len(word)<=2:
+            return True
+        else:
+            return is_palindrome(middle(word))
+    else:
+        return False
+    
+
 
     # TODO: fill in the body of this function
-    return True
+
+
+

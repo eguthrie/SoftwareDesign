@@ -4,6 +4,9 @@ Author: Allen B. Downey
 """
 
 from palindrome import is_palindrome
+from palindrome import first
+from palindrome import middle
+from palindrome import last
 
 
 def main():
